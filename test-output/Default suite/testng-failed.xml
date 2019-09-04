@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Test_Base">
+        <methods>
+          <include name="progressive_test"/>
+          <include name="Ready_button"/>
+          <include name="auto_mode"/>
+          <include name="getResult"/>
+          <include name="break_Test"/>
+          <include name="Redial"/>
+          <include name="endReport"/>
+          <include name="Call_test"/>
+          <include name="back_Test"/>
+          <include name="Reset_auto"/>
+          <include name="preview_test"/>
+          <include name="before"/>
+          <include name="log"/>
+        </methods>
+      </class> <!-- Test_Base -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
